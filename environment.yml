@@ -1,0 +1,23 @@
+name: it3105_proj1
+channels:
+  - default
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - flake8
+  - pylint
+  - pyyaml
+  - matplotlib
+  - numpy
+  - pytorch 
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - cudatoolkit-dev
+  - pip
+  - pip:
+    - -e .
+    - jax[cuda11_pip]
+    - jaxlib==0.4.6
