@@ -1,0 +1,5 @@
+setup.py
+src/it3105_proj2.egg-info/PKG-INFO
+src/it3105_proj2.egg-info/SOURCES.txt
+src/it3105_proj2.egg-info/dependency_links.txt
+src/it3105_proj2.egg-info/top_level.txt
